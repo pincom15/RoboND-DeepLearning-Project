@@ -52,7 +52,7 @@ workers = 4
 Hyper parameters are tuned by using heuristic method. I set the learning rate as 0.01. When I tried smaller rates, training requires more epochs and time. Increasing epochs might result in overfitting. So, I picked optimal value right before validation loss is about to increse. Below is my result of training and valication loss that I find optimum.
 ![Training Curves][train]
 
-![Follow me project result video][result]
+[Follow me project result video][result]
 
 ### 4. Fully Connected layer and 1x1 Convolutional layer
 In FCN, fully Connected layer in typical CNN is replaced with 1x1 convolutional layer that preserves spatial information. Thus, pixel-wise classification is possible.
